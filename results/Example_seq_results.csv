@@ -1,0 +1,19 @@
+#ChemEXIN OUTPUT FILE
+
+#ChemEXIN 1.0 Output generated on: 2024-04-03 12:12:49.793840
+
+#Input Parameters:
+#Employed Model---> H. sapiens
+#Input File Name---> Example_seq
+
+#Field description:
+#S.No.---> Predicted boundaty serial number.
+#Primary_start---> Target boundary window start site.
+#Primary_end---> Target boundary window end site.
+#Secondary_start---> Extended boundary window start site.
+#Secondary_end---> Extended boundary window end site.
+
+#Predicted Exon-intron boundaries:
+
+S.No.,Primary_start,Primary_end,Secondary_start,Secondary_end
+1,200,249,170,329
