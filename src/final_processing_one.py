@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 import simple_colors as SC
 
-def final_process(f_dic):
+def final_process(f_dic,prob):
     del f_dic[0]
     pos = []
     processed_keys = set() 
@@ -20,7 +20,7 @@ def final_process(f_dic):
         if key in processed_keys:  
             continue
 
-        if f_dic[key][2] >= 0.80:
+        if f_dic[key][2] >= prob:
             c_stretch = [key]  
             processed_keys.add(key)  
 
