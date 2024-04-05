@@ -37,11 +37,25 @@ if output_input_check:
 	all_param_combined_final = combine_tetra.combine_params(normalised_map_tetra,combine_dict_tri)
 	final_df = prediction_df.non_over_50(all_param_combined_final)
 	pred_results,model = run_model.prediction(final_df,file_name[0],org.upper())
-	positions_one = final_processing_one.final_process(pred_results)
+	print(SC.magenta(f"\nSelect the threshold value and hit ENTER else hit ENTER to proceed with default (0.75):"))
+	prob = input(SC.red("> a or A for PROB: 0.70")+SC.red("\n> b or B for PROB: 0.80")+SC.red("\n> c or C for PROB: 0.85")+SC.green("\nWaiting for user input: "))
+	if prob.upper() == "A":
+		prob=0.70
+		print(SC.green(f"Carrying forward the analysis with the selected threshold value: {prob}"))
+	elif prob.upper() == "B":
+                prob=0.80
+                print(SC.green(f"Carrying forward the analysis with the selected threshold value: {prob}"))
+	elif prob.upper() == "C":
+                prob=0.85
+                print(SC.green(f"Carrying forward the analysis with the selected threshold value: {prob}"))
+	else:
+		prob = 0.75
+		print(SC.red(f"The entered option doesn't correspond to a valid threshold.\nCarrying the analysis with the default value (0.75)."))
+	positions_one = final_processing_one.final_process(pred_results,float(prob))
 	print(SC.green(f"	Check 1: PASSED ---> Positions captured successfully."))
 	final_refined_pos = final_processing_two.process_pos(positions_one,pred_results)
 	print(SC.green(f"	Check 2: PASSED ---> Positions refined successfully."))
-	result=results.filter_dict(final_refined_pos,file_name[0],model)
+	result=results.filter_dict(final_refined_pos,file_name[0],model,prob)
 	result.index = result.index+1
 	result.index.name="S.No."
 	result.to_csv(f"results/{file_name[0]}_results.csv",mode = "a")
