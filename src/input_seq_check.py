@@ -11,8 +11,8 @@ import simple_colors as SC
 def readsequencefile(cont):
 	print(SC.blue("\nSTEP 1/8: Checking for the sequence length and sequence characters."))
 	content=cont.strip()
-	if len(content)>=180 and len(content)<= 2225000:
-		print(SC.green(f"	Check 1: PASSED ---> The input sequence length >= 180 and <= 2225000 (input length = {len(content)})."))
+	if len(content)>=180 and len(content)<= 2500000:
+		print(SC.green(f"	Check 1: PASSED ---> The input sequence length >= 180 and <= 2500000 (input length = {len(content)})."))
 		count=0
 		for i in range(len(content)):
 			if content[i] not in 'ATGC':
@@ -22,7 +22,7 @@ def readsequencefile(cont):
 			else:
 				count=0
 	else:
-		print(SC.red(f"	Check 1: FAILED ---> The input sequence length < 180 or is > 2225000 (input length = {len(content)})."))
+		print(SC.red(f"	Check 1: FAILED ---> The input sequence length < 180 or is > 2500000 (input length = {len(content)})."))
 		sys.exit()
 	if count==0:
 		print(SC.green(f"        Check 2: PASSED ---> All the input sequence characters are valid."))
