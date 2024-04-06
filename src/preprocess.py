@@ -18,7 +18,7 @@ def check_single(seq_f):
 				if response.upper()=="Y" or response.upper()=="YES":
 					with open(f"results/{seq_f.split('.')[0]}_single","w") as out:
 						out.write(full_seq)
-					print(SC.yellow("\nFile saved to results/{seq_f.split('.')[0]}_single"))
+					print(SC.yellow(f"\nFile saved to results/{seq_f.split('.')[0]}_single"))
 					return str(full_seq)
 				else:
 					print(SC.yellow("Starting main analysis without saving single sequenece file"))
