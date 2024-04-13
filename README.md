@@ -14,7 +14,7 @@
 
 > conda activate ChemEXIN
 
-## Usage
+## Usage:
 
 > cd ChemEXIN
 
