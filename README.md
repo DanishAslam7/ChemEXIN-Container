@@ -14,6 +14,7 @@ Note: ChemEXIN is a TensorFlow implementation.
 - **Conda**, to facilitate the management of packages and environments required for ChemEXIN across Windows, macOS, and Linux operating systems.
 - URL: https://conda.io/projects/conda/en/latest/user-guide/install/index.html 
 
+### Installation
 ### Create the project:
 > git clone https://github.com/rnsharma478/ChemEXIN.git
 
