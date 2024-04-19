@@ -22,9 +22,9 @@ Note: ChemEXIN is a TensorFlow implementation.
  `cd ChemEXIN`
 
 ### Installing the virtual environment:
-`>conda env create -f ChemEXIN.yml`
+`conda env create -f ChemEXIN.yml`
 
-> conda activate ChemEXIN
+`conda activate ChemEXIN`
 
 ### Usage:
 
