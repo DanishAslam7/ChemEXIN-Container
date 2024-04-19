@@ -17,47 +17,9 @@ Note: ChemEXIN is a TensorFlow implementation.
 ### Installation
 ### Create the project:
  `git clone https://github.com/rnsharma478/ChemEXIN.git`
-
- <div class="code-container">
-    <code>
-        // Your code here
-    </code>
-    <button class="copy-button" onclick="copyCode()">Copy</button>
-</div>
-
-<script>
-    function copyCode() {
-        var codeBlock = document.querySelector('.code-container code');
-        var range = document.createRange();
-        range.selectNode(codeBlock);
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(range);
-        document.execCommand('copy');
-        window.getSelection().removeAllRanges();
-        alert("Code copied!");
-    }
-</script>
-
-<style>
-    .code-container {
-        position: relative;
-    }
-    .copy-button {
-        position: absolute;
-        top: 5px;
-        right: 5px;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
-        font-size: 14px;
-        color: #007bff;
-        outline: none;
-    }
-</style>
-
-
+ 
 ### Go to the project directory:
-> cd ChemEXIN
+ `cd ChemEXIN`
 
 ### Installing the virtual environment:
 > conda env create -f ChemEXIN.yml
