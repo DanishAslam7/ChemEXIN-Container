@@ -9,7 +9,6 @@ Authors: Dinesh Sharma, Danish Aslam, Kopal Sharma, Aditya Mittal, and B Jayaram
 Note: ChemEXIN is a TensorFlow implementation.
 
 ## Setup
----
 
 ### Create the project:
 > git clone https://github.com/rnsharma478/ChemEXIN.git
