@@ -16,7 +16,7 @@ Note: ChemEXIN is a TensorFlow implementation.
 
 ### Installation
 ### Create the project:
-> git clone https://github.com/rnsharma478/ChemEXIN.git
+ `git clone https://github.com/rnsharma478/ChemEXIN.git`
 
 ### Go to the project directory:
 > cd ChemEXIN
