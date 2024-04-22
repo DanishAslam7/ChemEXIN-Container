@@ -1,0 +1,54 @@
+#ChemEXIN OUTPUT FILE
+
+#ChemEXIN 1.0 Output generated on: 2024-04-22 13:16:40.854867
+
+#Input Parameters:
+#Employed Model---> H. sapiens
+#Input File Name---> example
+
+#Field description:
+#S.No.---> Predicted boundaty serial number.
+#Primary_start---> Target boundary window start site.
+#Primary_end---> Target boundary window end site.
+#Secondary_start---> Extended boundary window start site.
+#Secondary_end---> Extended boundary window end site.
+
+#Predicted Exon-intron boundaries at 0.75 reliability threshold value.
+#Threshold value corresponds to the prediction probability of the boundary windows.
+
+S.No.,Primary_start,Primary_end,Secondary_start,Secondary_end
+1,50,99,20,179
+2,400,449,370,479
+3,650,699,620,729
+4,850,899,820,929
+5,1000,1049,970,1129
+6,1350,1399,1270,1429
+7,1600,1649,1570,1679
+8,1750,1799,1720,1829
+9,2000,2049,1970,2079
+10,2350,2399,2320,2429
+11,2750,2799,2720,2829
+12,2900,2949,2870,2979
+13,3150,3199,3120,3229
+14,3500,3549,3420,3579
+15,3800,3849,3720,3879
+16,4900,4949,4870,4979
+17,5150,5199,5120,5229
+18,5650,5699,5620,5729
+19,6100,6149,6070,6179
+20,6300,6349,6270,6379
+21,6600,6649,6570,6679
+22,7000,7049,6970,7079
+23,7300,7349,7220,7379
+24,7600,7649,7570,7679
+25,7850,7899,7820,7929
+26,8200,8249,8120,8279
+27,8400,8449,8370,8479
+28,8550,8599,8520,8679
+29,8750,8799,8670,8829
+30,9050,9099,9020,9129
+31,9200,9249,9170,9279
+32,9450,9499,9370,9529
+33,9650,9699,9570,9729
+34,10050,10099,10020,10129
+35,10650,10699,10570,10729
