@@ -15,22 +15,22 @@ Note: ChemEXIN is a TensorFlow implementation.
 - Conda is available at https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
 
 ### Setup (one-time setup)
-### Clone the ChemEXIN project repository:
+**Clone the ChemEXIN project repository:**
 ```bash
  git clone https://github.com/rnsharma478/ChemEXIN.git
  ```
-### Go to the project directory:
+**Go to the project directory:**
 ```bash
  cd ChemEXIN/
 ```
-### Installing the virtual environment:
+**Installing the virtual environment:**
 ```bash
 conda env create -f ChemEXIN.yml
 ```
 ```bash
 conda activate ChemEXIN
 ```
-### Usage:
+**Usage:**
 ```bash
 cd ChemEXIN/
 ```
