@@ -20,15 +20,20 @@ Note: ChemEXIN is a TensorFlow implementation.
  git clone https://github.com/rnsharma478/ChemEXIN.git
  ```
 ### Go to the project directory:
- `cd ChemEXIN/`
-
+```bash
+ cd ChemEXIN/
+```
 ### Installing the virtual environment:
-`conda env create -f ChemEXIN.yml`
-
-`conda activate ChemEXIN`
-
+```bash
+conda env create -f ChemEXIN.yml
+```
+```bash
+conda activate ChemEXIN
+```
 ### Usage:
-
-`cd ChemEXIN/`
-
-`python main.py`
+```bash
+cd ChemEXIN/
+```
+```bash
+python main.py
+```
