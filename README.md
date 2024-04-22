@@ -37,3 +37,4 @@ cd ChemEXIN/
 ```bash
 python main.py
 ```
+![priliminary_steps](https://github.com/rnsharma478/ChemEXIN/assets/112755171/42a9c1a6-8e08-45ca-92a5-74fca3a62f43)
