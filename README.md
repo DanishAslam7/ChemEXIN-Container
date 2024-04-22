@@ -8,13 +8,13 @@ Authors: Dinesh Sharma, Danish Aslam, Kopal Sharma, Aditya Mittal, and B Jayaram
 
 Note: ChemEXIN is a TensorFlow implementation.
 
-## Setup
+## Installation
 
 ### Prerequisites
 - **Conda**,  to create an environment for ChemEXIN across Windows, macOS, and Linux operating systems. This environment will include all the required dependencies. 
 - Conda is available at https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
 
-### Installation
+### Setup (one-time setup)
 ### Clone the ChemEXIN project repository:
 ```bash
  git clone https://github.com/rnsharma478/ChemEXIN.git
