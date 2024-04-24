@@ -100,9 +100,9 @@ The displayed statements are as follows,
 
 (A)	Converts the sequence into tetranucleotide parameter profiles followed by the normalization.
 
-`> Two “Checks” appear one when the conversion ends and the other when normalization ends.`
+`> Two “Checks” appear, one when the conversion ends and the other when normalization ends.`
 
-(B)	“SUCCESSFULLY COMPLETED :)” is prompted in case of no errors.
+(B)	“SUCCESSFULLY COMPLETED :)” is prompted in case there are no errors.
 ![image](https://github.com/rnsharma478/ChemEXIN/assets/112755171/34ee0c4d-2a59-4d33-8687-2355fb52a8e4)
 
 *STEP5/8.*
@@ -122,7 +122,7 @@ The displayed statements are as follows,
 
 *STEP7/8.*
 
-(A)	Runs the user-selected 3D-CNN model (in this case, we chose “h”, so the H. sapiens prediction model is used).
+(A)	Runs the user-selected 3D-CNN model (in this case, we chose “h”, so the *H. sapiens* prediction model is used).
 
 (B)	“SUCCESSFULLY COMPLETED :)” is prompted in case there are no errors.
 ![image](https://github.com/rnsharma478/ChemEXIN/assets/112755171/2f62a0d1-e61d-4bda-9dd2-8c0eea13d9ad)
