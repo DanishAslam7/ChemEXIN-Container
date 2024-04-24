@@ -61,9 +61,9 @@ Activate the ChemEXIN environment and move to the ChemEXIN directory.
 Provide the necessary inputs* when prompted.
 ![image](https://github.com/rnsharma478/ChemEXIN/assets/112755171/61a8da11-9486-4a14-80c2-966f2fe447cb)
 
-*The text in white is the user input, in this case; "example.fasta" is the input file name containing the sequence in fasta format; "h" is the character input for Homo sapiens model; "y" prompts the tool to save a single line file with the sequence named "example_single" with no header.*
+*The text in white is the user input, in this case; "example.fasta" is the input file name containing the sequence in fasta format; "h" is the character input for the Homo sapiens model; "y" prompts the tool to save a single line file with the sequence named "example_single" with no header.*
 
-**Note:** Single line file generation option is available only if the file contains a sequence spanning multiple lines. This option is an add-on utility that can be used for generating single lined sequence from multi-lined fasta files.
+**Note:** Single line file generation option is available only if the file contains a sequence spanning multiple lines. This option is an add-on utility that can be used for generating single lined sequences from multi-lined fasta files.
 
 **STEP6:**
 
