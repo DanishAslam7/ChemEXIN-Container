@@ -180,7 +180,7 @@ Sequences must meet specific length criteria: they should be 180 nucleotides lon
 
 •	the terminal exon filter;
 
-Specifically, precautions have been implemented since exon-end sites could erroneously appear at the beginning of a sequence, or exon-start sites might be predicted towards the sequence's end due to our combined probabilities approach. Predictions within the sequence's initial window (0-50) are disregarded, as are any nucleotides beyond the last possible 50-nucleotide window from the input sequence.
+Specific precautions have been taken since exon-end sites could erroneously appear at the beginning of a sequence, or exon-start sites might be predicted towards the sequence's end due to our combined probabilities approach. Predictions within the sequence's initial window (0-50) are disregarded, as are any nucleotides beyond the last possible 50-nucleotide window from the input sequence.
 
 •	the probability threshold filter;
 
