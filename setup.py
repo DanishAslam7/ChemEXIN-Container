@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ChemEXIN_F",
+    name="ChemEXIN",
     version="1.0",
     packages=find_packages(),
     install_requires=[
