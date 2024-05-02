@@ -8,6 +8,10 @@ Authors: Dinesh Sharma, Danish Aslam, Kopal Sharma, Aditya Mittal, and B Jayaram
 
 Note: ChemEXIN is a TensorFlow implementation.
 
+## Supported Operating System
+
+It works as a command-line utility on Windows, Linux, and MacBook. It has been tested on Windows 10, Ubuntu 22.04, and macOS Sonoma (version 14) respectively.
+
 ## Installation
 
 ### Prerequisites
