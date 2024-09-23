@@ -7,7 +7,7 @@
 #Input File Name---> example
 
 #Field description:
-#S.No.---> Predicted boundaty serial number.
+#S.No.---> Predicted boundary serial number.
 #Primary_start---> Target boundary window start site.
 #Primary_end---> Target boundary window end site.
 #Secondary_start---> Extended boundary window start site.
