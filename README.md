@@ -8,6 +8,8 @@ Authors: Dinesh Sharma, Danish Aslam, Kopal Sharma, Aditya Mittal, and B Jayaram
 
 Note: ChemEXIN is a TensorFlow implementation.
 
+Manuscript: Sharma, D., Aslam, D., Sharma, K., Mittal, A., & Jayaram, B. (2025). Exon–intron boundary detection made easy by physicochemical properties of DNA. Molecular Omics. 2025, 21, 226-239.
+
 ## Supported Operating System
 
 It works as a command-line utility on Windows, Linux, and MacBook. It has been tested on Windows 10, Ubuntu 22.04, and macOS Sonoma (version 14) respectively.
