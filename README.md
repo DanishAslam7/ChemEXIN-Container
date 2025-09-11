@@ -201,3 +201,4 @@ Specific precautions have been taken since exon-end sites could erroneously appe
 *(II) If the stretch has an odd number of positions, the median position is selected from the total number of positions (including the seed position). This gives a single position which undergoes further processing (to generate a window), the same as the single position processing explained in step A.*
 
 **Note:** While the reliability threshold value is flexible, ranging from 0.70 to 0.85, it is advisable to consider factors such as over-representation and loss of information.
+
