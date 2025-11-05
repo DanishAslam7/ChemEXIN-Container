@@ -1,6 +1,6 @@
 # ChemEXIN
 
-An open-source, deep learning integrated, physicochemical property-based exon-intron boundary prediction method. It is based on a three-dimensional convolutional neural network (3D-CNN) architecture. Three organism-specific (_Homo sapiens_, _Mus musculus_, and _Caenorhabditis elegans_) models have been built and implemented in the final prediction pipeline. The universality of ChemEXIN lies in its ability to predict exon-intron boundaries across varying lengths of known genes (180 to ~2,500,000 bps) in the organisms under study.
+An open-source, deep-learning integrated, physicochemical property-based exon-intron boundary prediction method. It is based on a three-dimensional convolutional neural network (3D-CNN) architecture. Three organism-specific (_Homo sapiens_, _Mus musculus_, and _Caenorhabditis elegans_) models have been built and implemented in the final prediction pipeline. The universality of ChemEXIN lies in its ability to predict exon-intron boundaries across varying lengths of known genes (180 to ~2,500,000 bps) in the organisms under study.
 
 Title: "Exon-Intron Boundary Detection Made Easy by Physicochemical Properties of DNA"
 
@@ -201,4 +201,5 @@ Specific precautions have been taken since exon-end sites could erroneously appe
 *(II) If the stretch has an odd number of positions, the median position is selected from the total number of positions (including the seed position). This gives a single position which undergoes further processing (to generate a window), the same as the single position processing explained in step A.*
 
 **Note:** While the reliability threshold value is flexible, ranging from 0.70 to 0.85, it is advisable to consider factors such as over-representation and loss of information.
+
 
