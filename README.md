@@ -26,9 +26,9 @@ Original repository: https://github.com/rnsharma478/ChemEXIN
 
 ## Docker Containerization & Deployment
 
-For help and support, contact: **Danish Aslam**
+For help and support, contact:
 
-Project Scientist, Computational Genomics, SCFBio, Indian Institute of Technology Delhi
+**Danish Aslam**, Project Scientist, Computational Genomics, SCFBio, Indian Institute of Technology Delhi
 
 Email: danish@scfbio-iitd.res.in
 
@@ -149,4 +149,5 @@ docker run -it --rm -v $(pwd):/drive -w /drive chemexin
 ## License
 
 GNU General Public License v3.0 (GPL-3.0)
+
 
