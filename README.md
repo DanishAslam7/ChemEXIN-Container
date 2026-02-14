@@ -1,14 +1,14 @@
 # ChemEXIN-Container
 
-Dockerized deployment of **ChemEXIN**, an open-source, deep learning--integrated, physicochemical property--based exon--intron boundary prediction method.
+Dockerized deployment of **ChemEXIN**, an open-source, deep learning-integrated, physicochemical property-based exon-intron boundary prediction method.
 
 ChemEXIN is based on a three-dimensional convolutional neural network (3D-CNN) architecture and provides organism-specific prediction models for:
 
--   *Homo sapiens*\
--   *Mus musculus*\
+-   *Homo sapiens*
+-   *Mus musculus*
 -   *Caenorhabditis elegans*
 
-It supports gene sequences ranging from 180 bp to \~2,500,000 bp.
+It supports gene sequences ranging from 180 bp to ~2,500,000 bp.
 
 ------------------------------------------------------------------------
 
@@ -22,29 +22,30 @@ Note: ChemEXIN is a TensorFlow implementation.
 
 Manuscript: Sharma, D., Aslam, D., Sharma, K., Mittal, A., & Jayaram, B. (2025). Exon–intron boundary detection made easy by physicochemical properties of DNA. Molecular Omics. 2025, 21, 226-239.
 
-Original repository:\
-https://github.com/rnsharma478/ChemEXIN
+Original repository: https://github.com/rnsharma478/ChemEXIN
 
 ## Docker Containerization & Deployment
 
-- **Danish Aslam**
+For help and support, contact: Danish Aslam
+Project Scientist, Computational Genomics
+SCFBio
+Indian Institute of Technology Delhi
+Email: danish@scfbio-iitd.res.in
 
 ------------------------------------------------------------------------
 
 ## This Repository
 
-This repository provides a fully reproducible Docker-based deployment of
-ChemEXIN.
+This repository provides a fully reproducible Docker-based deployment of ChemEXIN.
 
 The container includes:
 
--   Python 3.8\
--   TensorFlow (CPU)\
+-   Python 3.8
+-   TensorFlow (CPU)
 -   NumPy, SciPy, Pandas, scikit-learn\
 -   All ChemEXIN source code and trained models
 
-No Conda installation or dependency setup is required on the host
-system.
+No Conda installation or dependency setup is required on the host system.
 
 ------------------------------------------------------------------------
 
@@ -69,7 +70,7 @@ docker build -t chemexin .
 
 ------------------------------------------------------------------------
 
-## Run ChemEXIN (Interactive Mode --- Recommended)
+## Run ChemEXIN (Interactive Mode)
 
 ``` bash
 docker run -it --rm -v $(pwd):/drive -w /drive chemexin
@@ -80,7 +81,6 @@ This launches:
 ``` bash
 python /app/ChemEXIN/main.py
 ```
-
 ------------------------------------------------------------------------
 
 ## Interactive Prompts During Execution
@@ -95,18 +95,17 @@ Example:
 
 ### 2. Organism Selection
 
-    h or H → Homo sapiens  
-    m or M → Mus musculus  
+    h or H → H. sapiens  
+    m or M → M. musculus  
     c or C → C. elegans
 
 ### 3. Single-Line Sequence Retrieval (Optional)
 
 If your FASTA contains multi-line sequences:
 
-    Do you want to retrieve the single line sequence file? (Y/N)
+    Do you want to retrieve the single-line sequence file? (Y/N)
 
-If `y` is selected, a single-line version will be saved in the
-`results/` directory.
+If `y` is selected, a single-line version will be saved in the `results/` directory.
 
 ### 4. Probability Threshold Selection
 
@@ -114,19 +113,6 @@ If `y` is selected, a single-line version will be saved in the
     b or B → 0.80  
     c or C → 0.85  
     ENTER  → default 0.75
-
-------------------------------------------------------------------------
-
-## Processing Overview (8-Step Pipeline)
-
-1.  Sequence validation (length + DNA character check)\
-2.  Trinucleotide profile generation and normalization\
-3.  Feature category combination\
-4.  Tetranucleotide profile generation and normalization\
-5.  Profile concatenation\
-6.  Final prediction dataframe creation\
-7.  Organism-specific 3D-CNN inference\
-8.  Boundary capture, refinement, and output generation
 
 ------------------------------------------------------------------------
 
@@ -138,9 +124,9 @@ Results are written to:
 
 The output file includes:
 
--   Predicted boundary windows\
--   Primary start/end sites\
--   Secondary extended window sites\
+-   Predicted boundary windows
+-   Primary start/end sites
+-   Secondary extended window sites
 -   Reliability threshold metadata
 
 ------------------------------------------------------------------------
@@ -163,13 +149,3 @@ docker run -it --rm -v $(pwd):/drive -w /drive chemexin
 ## License
 
 GNU General Public License v3.0 (GPL-3.0)
-
-------------------------------------------------------------------------
-
-## Support
-
-Danish Aslam\
-Project Scientist, Computational Genomics\
-SCFBio\
-Indian Institute of Technology Delhi\
-Email: danish@scfbio-iitd.res.in
