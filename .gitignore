@@ -1,6 +1,18 @@
 __pycache__/
 *.py[cod]
-*$py.class
-build/
-dist/
-ChemEXIN.egg-info/
+*.log
+
+# keep results directory but ignore its contents
+results/*
+!results/.gitkeep
+
+# docker image exports / archives
+*.tar
+*.tar.gz
+
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+*~
+

@@ -1,6 +1,6 @@
 name: ChemEXIN
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - ca-certificates
   - openssl
@@ -56,4 +56,4 @@ dependencies:
       - werkzeug
       - wrapt
       - zipp
-      - git+https://github.com/rnsharma478/ChemEXIN.git
+
