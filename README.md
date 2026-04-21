@@ -42,7 +42,7 @@ The container includes:
 
 -   Python 3.8
 -   TensorFlow (CPU)
--   NumPy, SciPy, Pandas, scikit-learn\
+-   NumPy, SciPy, Pandas, scikit-learn
 -   All ChemEXIN source code and trained models
 
 No Conda installation or dependency setup is required on the host system.
